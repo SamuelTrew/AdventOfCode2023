@@ -1,5 +1,4 @@
 #lang typed/racket
-(require/typed srfi/13 [string->list (-> String (Listof Char))])
 
 (define lines : (Listof String)
    (map
